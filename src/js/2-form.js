@@ -22,7 +22,6 @@ function onInput(evt) {
     email: `${emailValue}`,
     messege: `${messegeValue}`,
   };
-  console.log(inputArr);
   localStorage.setItem('feedback-form-state', JSON.stringify(inputArr));
 }
 
